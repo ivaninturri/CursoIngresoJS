@@ -8,6 +8,9 @@ function sumar()
 	let num2;
 	let resultado;
 
+ //parseint es para convertir una variable en un tipo numerico (numeros enteros)
+ //parsefloat (numeros decimales)
+
 	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
 
     num2 = parseInt(document.getElementById("txtIdNumeroDos").value);

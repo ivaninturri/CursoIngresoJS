@@ -17,8 +17,7 @@ function mostrarAumento()
 	aumento = sueldo * 10/100;
 
 	 // descuento = resultado * 0.1
-    // descuento = sueldo + 1*1
-   // descuento = sueldo (sueldo * 0.1)
+    // descuento = sueldo (sueldo * 0.1)
 
    
 	resultado = sueldo + aumento;

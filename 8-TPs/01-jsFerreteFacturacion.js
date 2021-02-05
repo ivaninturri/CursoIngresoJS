@@ -56,6 +56,7 @@ function PrecioFinal ()
  let precio1;
  let precio2;
  let precio3;
+ let suma;
  let resultado;
  let iva;
 
@@ -68,9 +69,13 @@ precio2 = parseFloat(precio2);
 precio3 = document.getElementById("txtIdPrecioTres").value;
 precio3 = parseFloat(precio3);
 
-iva = (precio1 + precio2 + precio3) * 21/100 
+suma = precio1 + precio2 + precio3
 
-resultado = (precio1 + precio2 + precio3) + iva
+iva  = suma * 21/100
+
+// iva = (precio1 + precio2 + precio3) * 21/100;   
+
+resultado = suma + iva;
     
 alert("El importe con iva incluido es:  " + resultado);
 

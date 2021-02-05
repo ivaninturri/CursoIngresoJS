@@ -27,7 +27,7 @@ function Rectangulo ()
 }
 function Circulo () 
 {
-    let perimetro;
+    let perimetro; // se calcula haciendo: 2 * pi * radio
     let radio;
     let alambre;
 // const es una constante. (se declara en mayuscula y en la misma linea donde se declaro) 
@@ -48,7 +48,7 @@ function Materiales ()
 {
     let largo;
     let ancho;
-    let area;
+    let area; // se calcula haciendo: largo x ancho
     let cemento;
     let cal; 
     

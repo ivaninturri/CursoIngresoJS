@@ -7,7 +7,7 @@ function mostrarAumento()
 {
 	let sueldo;
 	let resultado;
-	var descuento;
+	let descuento;
 
 
 	sueldo = document.getElementById("txtIdImporte").value;
@@ -16,7 +16,7 @@ function mostrarAumento()
 
 	descuento = sueldo * 25/100;
 
-	 // descuento = resultado * 0.25;
+	  //descuento = resultado * 0.25;
     
 
    
@@ -25,4 +25,6 @@ function mostrarAumento()
 	document.getElementById("txtIdResultado").value = resultado;
 
 	alert("Su resultado es: " + resultado);
+
+
 }

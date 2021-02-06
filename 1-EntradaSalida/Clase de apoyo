@@ -1,0 +1,74 @@
+
+
+// Ejercicio 1
+
+let precio;
+	let descripcion;
+	let aumento;
+	let resultado;
+
+
+ descripcion = prompt("Ingrese su producto");
+
+ precio = document.getElementById("txtIdNombre").value;
+ precio = parseFloat(precio);
+
+ aumento = precio * 30 / 100;
+
+ resultado = precio + aumento
+
+ alert("El valor de: " + descripcion + " con el 30% es de " + resultado);
+
+
+
+// Ejercicio 2
+ let producto;
+let importe;
+let porcentajeDescuento;
+let descuento;
+let resultado;
+
+producto = prompt("Ingrese nombre del producto");
+
+importe = document.getElementById("txtIdImporte").value;
+importe = parseFloat(importe);
+
+descuento = prompt("Ingrese el porcentaje de descuento que desea");
+descuento = parseInt(descuento);
+
+porcentajeDescuento = importe * descuento / 100;
+
+resultado = importe - porcentajeDescuento;
+
+document.getElementById("txtIdResultado").value = resultado;
+
+alert("Usted compro " + producto + " con el descuento " + descuento + "%  el precio final es: " + resultado);
+
+
+
+
+
+
+// Ejercicio 3
+
+let dividendo;
+let divisor;
+let suma;
+let promedio;
+let modulo;
+
+dividendo = document.getElementById("txtIdNumeroDividendo").value;
+dividendo = parseFloat(dividendo);
+
+divisor = document.getElementById("txtIdNumeroDivisor").value;
+divisor = parseFloat(divisor);
+
+suma = dividendo + divisor;
+
+promedio = dividendo + divisor / 2;
+
+modulo = dividendo % divisor;
+
+console.log("La suma es: " + suma);
+console.log("El promedio es: " + promedio);
+console.log("El modoulo es: " + modulo);

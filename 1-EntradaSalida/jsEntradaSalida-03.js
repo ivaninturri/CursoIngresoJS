@@ -7,6 +7,7 @@ function mostrar()
 
 	nombre = document.getElementById("txtIdNombre").value;
 
-	alet(nombre);
+	alert(nombre);
+
 
 }

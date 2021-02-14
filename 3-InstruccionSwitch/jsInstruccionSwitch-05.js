@@ -1,10 +1,35 @@
 function mostrar()
 {
 	//tomo la hora
-	var horaDelDia =txtIdHora.value;
-	alert(horaDelDia);
+	let horaDelDia
+    let mensaje
+
+	mensaje = "Es de mañana";
+	horaDelDia = document.getElementById("txtIdHora").value;
+    horaDelDia = parseInt(horaDelDia);
+
 	
+	switch (horaDelDia) 
+	{
+		case 7:
+			alert(mensaje);
+			break;
+		case 8:
+			alert(mensaje);
+			break;
+		case 9:
+			alert(mensaje);
+			break;
+		case 10:
+		    alert(mensaje);
+			break;
+		case 11:
+			alert(mensaje);
+			break;
 	
+		default:
+			break;
+	}
 
 
 

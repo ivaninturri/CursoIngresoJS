@@ -8,5 +8,16 @@ function mostrar()
 		let nombre = prompt("Ingrese su nombre" , "Ivan Inturri");
 	
 	alert("Su nombre es: " +nombre);
+
+    num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
+
+    num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+
+    cantidad = prompt("Ingrese un numero");
+	
+	suma1 = 
+
+    
+
 }
 

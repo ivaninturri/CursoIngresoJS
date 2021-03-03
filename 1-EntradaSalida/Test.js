@@ -78,4 +78,7 @@ switch(puntuacion)
         alert("excelente");
         break; 
     }  
+
+
+
 }

@@ -16,15 +16,15 @@ function mostrar()
 {
 	let nota;
 
-	//nota = Math.round(Math.random() * 9 + 1);
+	nota = Math.round(Math.random() * 9 + 1);
 	//Hardcodeo
-	nota = 9;
+	
 
-	if (nota>=9)
+	if (nota > 8)
 	{
 		alert("EXCELENTE: " + nota);
 	}
-	else if (nota < 4)
+	else if (nota > 3)
 	{
 		alert("APROBÓ: " + nota);
 	}
